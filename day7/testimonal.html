@@ -28,33 +28,22 @@
       <div class="containerr">
         <h1>My Testimonials</h1>
         <div class="container-rating">
-          <h2>Rating By Star</h2>
+          <h2> Rating By Star</h2>
 
           <div class="rating">
-            <button class="rating-btn" onclick="allTestimonial()">ALL</button>
-            <button class="rating-btn" onclick="filterTestimonials(1)">
-              1<i class="fa-solid fa-star"></i>
-            </button>
-            <button class="rating-btn" onclick="filterTestimonials(2)">
-              2<i class="fa-solid fa-star"></i>
-            </button>
-            <button class="rating-btn" onclick="filterTestimonials(3)">
-              3<i class="fa-solid fa-star"></i>
-            </button>
-            <button class="rating-btn" onclick="filterTestimonials(4)">
-              4<i class="fa-solid fa-star"></i>
-            </button>
-            <button class="rating-btn" onclick="filterTestimonials(5)">
-              5<i class="fa-solid fa-star"></i>
-            </button>
+            <button class="rating-btn" onclick="applyFilter('all')">All</button>
+            <button class="rating-btn" onclick="applyFilter('positive')">Positive</button>
+            <button class="rating-btn" onclick="applyFilter('negative')">Negative</button>
+            <button class="rating-btn" onclick="applyFilter('star-1')">1 Star</button>
+            <button class="rating-btn" onclick="applyFilter('star-2')">2 Stars</button>
+            <button class="rating-btn" onclick="applyFilter('star-3')">3 Stars</button>
+            <button class="rating-btn" onclick="applyFilter('star-4')">4 Stars</button>
+            <button class="rating-btn" onclick="applyFilter('star-5')">5 Stars</button>
           </div>
-        </div>
-        <div class="container-rating"></div>
-
         <div class="testimonials" id="testimonials">
           <div class="testimonial">
             <img
-              src="https://source.unsplash.com/660x200?profile+pic"
+            src="https://picsum.photos/200/300?"
               alt="testimonial"
               class="profile-testimonial"
             />
@@ -66,7 +55,7 @@
             </p>
             <p class="author">-chalid anwar</p>
           </div>
-          <div class="" id="testimonials-container"></div>
+          <div class="testimonials" id="testimonials-container"></div>
         </div>
       </div>
     </div>
