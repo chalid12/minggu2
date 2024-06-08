@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/42aaf70010.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="#" class="logo"><i class="fa-solid fa-house-flood-water"></i></a>
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+      <div class="navbar hide">
+        <a href="index.html">home</a>
+        <a href="blog.html">blog</a>
+        <a class="btn-contact" href="contact.html">contact</a>
+      </div>
+    </nav>
+    <div class="borderr">
+      <div class="container">
+        <form class="form-contact">
+          <label for="label-contact">Name</label>
+          <input type="text" class="input-contact" id="inputName" />
+
+          <label for="label-contact">Email</label>
+          <input type="text" class="input-contact" id="inputEmail" />
+
+          <label for="label-contact">Phone Number</label>
+          <input type="text" class="input-contact" id="inputPhone" />
+
+          <label for="label-contact">Subject</label>
+          <select class="input-contact" id="inputSubject">
+            <option></option>
+            <option>Frontend Developer</option>
+            <option>Backend Developer</option>
+            <option>Fullstack Developer</option>
+          </select>
+
+          <label for="label-contact">Your Message</label>
+          <textarea class="input-contact" id="inputMessage"></textarea>
+          <input
+            type="button"
+            value="submit"
+            class="submit-contact"
+            onclick="submitData()"
+          />
+        </form>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>
