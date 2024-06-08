@@ -19,7 +19,7 @@ const TestimoniData = [
   },
   {
     image: "https://picsum.photos/200/300?random=4",
-    content: "AKHhhdhakwdhwakdhkawhdkahk....",
+    content: "AKHdkahk....",
     author: "Lucinta Dede Hidayat?",
     rating: 2,
   },
@@ -50,7 +50,7 @@ const TestimoniData = [
   {
     image: "https://picsum.photos/200/300?random=9",
     content: "danger",
-    author: "dadang",
+    author: "Amanda Puspita JKT48",
     rating: 3,
   },
 ];
